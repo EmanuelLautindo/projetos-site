@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+    --color1: hsl(171, 66%, 44%);
+    --color2: hsl(233, 100%, 69%);
+    --color3: hsl(210, 10%, 33%);
+    --color4: hsl(201, 11%, 66%);
+
+    --fonte: 'Bai Jamjuree', sans-serif;
+}
+
+div{
+    display: inline-block;
+}
+
+body{
+    margin: 0px;
+    font-family: var(--fonte);
+}
+
+header{
+    max-width: 1440px;
+    min-width: 375px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+#image1{
+    position: relative;
+}
+
+#icon1{
+    position: absolute;
+    left: 46%;
+    top: 18%;
+}
+
+header > h1{
+    position: absolute;
+    top: 280px;
+    left: 450px;
+    font-size: 2.5em;
+}
+
+header > p{
+    font-size: 1.125em;
+    text-align: center;
+    width: 650px;
+    margin: auto;
+}
+
+.button_box{
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 35%;
+    list-style-position: inside;
+    columns: 2;
+    margin-bottom: 150px;
+}
+
+button{
+    height: 3.4em;
+    width: 12em;
+    border: none;
+    font-size: 1.125em;
+    font-family: var(--fonte);
+    font-weight: bolder;
+    color: white;
+    border-radius: 150px;
+}
+
+.button1{
+    background-color: var(--color1);
+    margin-right: 10px;
+    box-shadow: 1px 3px 3px hsl(171, 84%, 32%);
+}
+
+.button1:hover{
+    background-color: hsl(171, 84%, 32%);
+    box-shadow: 1px 3px 3px var(--color1);
+    cursor: pointer;
+}
+
+.button2{
+    background-color: var(--color2);
+    box-shadow: 1px 3px 3px hsl(233, 47%, 51%);
+}
+
+.button2:hover{
+    background-color: hsl(233, 47%, 51%);
+    box-shadow: 1px 3px 3px var(--color2);
+    cursor: pointer;
+}
+
+main{
+    min-width: 375px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+p{
+    font-size: 1.125em;
+    color: var(--color4);
+}
+
+h2{
+    text-align: center;
+    font-size: 1.875em;
+}
+
+h3{
+    font-size: 1.5625em;
+    width: 400px;
+}
+
+.h2_p{
+    margin: auto;
+    text-align: center;
+    width: 700px;
+}
+
+div#container1{
+    list-style-position: inside;
+    columns: 2;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img#computer{
+    margin-right: 50px;
+}
+
+div#container2{
+    margin-left: 150px;
+    width: 600px;
+    height: 500px;
+}
+
+div#container2 > h3{
+    padding-top: 30px;
+}
+
+div#container2 > p{
+    width: 350px;
+}
+
+img#devices{
+    margin-top: 100px;
+    margin-left: 260px;
+}
+
+aside{
+    list-style-position: inside;
+    columns: 3;
+    margin: 100px 0px 100px 60px;
+    text-align: center;
+}
+
+aside > p{
+    width: 400px;
+}
+
+aside > svg{
+    padding-right: 65px;
+}
+
+div#picture{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.marcas{
+    margin-right: 120px;
+}
+
+footer{
+    background-color: rgb(245, 245, 245);
+}
+
+.page-icon{
+    transform: scale(0.48);
+    position: relative;
+    top: 30px;
+    margin-left: 90px;
+}
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+li{
+    margin-bottom: 30px;
+    font-size: 1.125em;
+}
+
+.ul3{
+    position: relative;
+    top: -53.7px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.social-icons{
+    position: relative;
+    top: -20px;
+    left: 500px;
+}
+
+.social-icons > a{
+    margin-left: 10px;
+}
+
+.facebook:hover{
+    fill: blue;
+}

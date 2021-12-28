@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Card component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+    *{
+      font-family: 'Outfit', 'Arial', sans-serif;
+    }
+
+    body{
+      background-color: hsl(217, 54%, 11%);
+      height: 635px;
+      margin: 8px 0px 0px 0px;
+    }
+
+    main{
+      background-color: hsl(216, 50%, 16%);
+      width: 360px;
+      height: 615px;
+      margin: auto;
+      border-radius: 15px;
+      box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.473);
+    }
+
+    h1{
+      color: white;
+      padding-left: 30px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+
+    p#um{
+      color: hsl(215, 51%, 70%);
+      padding-left: 30px;
+      margin-bottom: 5px;
+      width: 330px;
+    }
+
+    p#dois{
+      color: hsl(178, 100%, 50%);
+      margin: 0px;
+      padding-left: 30px;
+    }
+
+    p#tres{
+      color: hsl(215, 51%, 70%);
+      margin: 0px;
+      padding-left: 30px;
+    }
+
+    p#quatro{
+      color: hsl(215, 51%, 70%);
+      display: inline-block;
+      width: 250px;
+      padding-left: 15px;
+      margin-bottom: 10px;
+      position: absolute;
+    }
+
+    p > strong{
+      color: white;
+    }
+
+    div#bloco1{
+      display: inline-block;
+      padding-left: 15px;
+
+    }
+
+    div#bloco2{
+      display: inline-block;
+      padding-left: 90px;
+    }
+
+    svg#icone1{
+      position: relative;
+      top: 25px;
+      right: -15px;
+    }
+
+    svg#icone2{
+      position: relative;
+      top: 25px;
+      right: -10px;
+    }
+
+    img#primeira{
+      margin: auto;
+      width: 85%;
+      padding: 20px 0px 0px 30px;
+    }
+
+    img#segunda{
+      width: 10%;
+      padding: 10px 0px 0px 25px;
+      position: relative;
+    }
+
+    div#linha{
+      background-color: hsl(215, 32%, 27%);
+      width: 305px;
+      height: 2px;
+      margin-left: 28px;
+      display: inline-block;
+    }
+
+    aside{
+      margin-top: 10px;
+    }
+
+    footer{
+      background-color: hsl(216, 50%, 16%);
+      margin-top: 95px;
+      height: 30px;
+      text-align: center;
+    }
+
+    footer > p{
+      color: hsl(215, 51%, 70%);
+      font-size: 11px;
+      padding-top: 5px;
+    }
+
+    footer a{
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+    }
+
+    footer a:hover{
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+  <main>
+    <img id="primeira" src="images/image-equilibrium.jpg" alt="">
+    <h1>Equilibrium #3429</h1>
+    <p id="um">Our Equilibrium collection promotes balance and calm.</p>
+    <div id="container">
+      <div id="bloco1">
+        <svg id="icone1" width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+        <p id="dois">0.041 ETH</p>
+      </div>
+      <div id="bloco2">
+        <svg id="icone2" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+        <p id="tres">3 days left</p>
+      </div>
+    </div>
+    <div id="linha"></div>
+    <aside>
+      <img id="segunda" src="images/image-avatar.png" alt="">
+      <p id="quatro">Creation of <strong>Jules Wyvern</strong></p>
+    </aside>
+  </main>
+  <footer>
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Emanuel Laurindo</a></p>
+  </footer>
+</body>
+</html>
