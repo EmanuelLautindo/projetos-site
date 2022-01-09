@@ -17,8 +17,14 @@
     --font-padrao: 'Open Sans', sans-serif;
 }
 
+* {
+    margin: 0px;
+}
+
 body {
     background-color: var(--cor2);
+    font-family: var(--font-destaque);
+    min-width: 375px;
 }
 
 .logo {
@@ -29,13 +35,64 @@ body {
 .a-top {
     float: right;
     margin-top: 70px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .intro-img {
     margin: auto;
+    margin-top: 50px;
+    display: block;
+    width: 42%;
 }
 
 h1 {
     text-align: center;
+    color: white;
+    max-width: 760px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+div.part-one {
+    background-color: var(--cor1);
+}
+
+div.part-one > p{
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.part-one > button {
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+    background-color: var(--cor6);
+    color: white;
+    font-family: var(--font-padrao);
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 43px;
+}
+
+.part-one > button:hover {
+    background-color: var(--cor5);
+    cursor: pointer;
 }
