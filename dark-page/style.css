@@ -24,18 +24,25 @@
 body {
     background-color: var(--cor2);
     font-family: var(--font-destaque);
-    min-width: 375px;
 }
 
 .logo {
-    margin-top: 60px;
+    max-width: 15%;
+    min-width: 13%;
+    margin-top: 40px;
+    margin-right: 20px;
     margin-left: 50px;
 }
 
 .a-top {
     float: right;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-right: 40px;
+}
+
+.a-top > a {
+    font-size: 1em;
+    padding-left: 30px;
 }
 
 .intro-img {
